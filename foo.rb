@@ -18,4 +18,4 @@ class Bar < Foo
     super()        # 引数なしで呼び出す
   end
 end
-Bar.new.foo 5
+Bar.new.foo 5 # Bar.new.foo(5)と同じ
