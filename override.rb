@@ -7,6 +7,7 @@ end
 
 class Job2 < Job1
   def myjob
+    super
     puts "私の仕事はコメディアンです。"
   end
 end
