@@ -8,5 +8,6 @@ class A
   include M
 end
 
-a = A.new
-p a.math
+a = A.new # クラスAのインスタンスを作成
+p a.math # モジュールMのmathメソッドを実行
+p A.include?(M) # クラスAにモジュールMが含まれているか確認
