@@ -6,6 +6,10 @@ end
 
 class A
   include M
+
+  def self_introduction(name, age)
+    "私の名前は#{name}じゃ。年齢は#{age + 100}歳。悪魔です。"
+  end
 end
 
 # クラスAのインスタンスを作成
